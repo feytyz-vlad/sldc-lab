@@ -22,6 +22,7 @@
 (У репозиторії потрібно додати файл prototype.png зі скріном намальованого макету, можна зробити у Paint, Figma чи навіть на папері).
 
 4. Реалізація (Псевдокод)
+```
 function addTask(course, taskText):
     if taskText is empty:
         return "Error: Task cannot be empty"
@@ -38,7 +39,7 @@ function calculateProgress(course):
     total = count(course.taskList)
     done = count where status == "done"
     return (done / total) * 100
-
+```
 5. Тестування
 
 Додати завдання “Зробити презентацію” → воно з’являється у списку курсу.
